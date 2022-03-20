@@ -1,0 +1,9 @@
+{
+    "operation": "echo",
+    "payload": {
+        "user_id" : 2,
+        "account_id": 1991,
+        "Workload": "txt update data",
+        "Description": "Demo API GW for integrate with Lambda Function"
+    }
+}
