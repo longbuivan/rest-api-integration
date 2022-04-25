@@ -1,16 +1,14 @@
 - [ ] [F10] Understand Problems and Technical Discussion
 - [ ] [F11] Set up Local Machine Environment
-  - [x] Install Docker: hosting localstack
-  - [x] Install Python
-  - [x] Install Terraform
-  - [x] Output 1: hosting localstack.
-  - [x] Output 2: Create Lambda function/dynamodb/s3/IAM/... by terraform, count number of row in csv file, write the result into dynamodb {"row": 3}.
-  - [x] Deadline: 5 Mar, 2022
+  - [ ] Install Docker: hosting localstack
+  - [ ] Install Python
+  - [ ] Install Terraform
+  - [ ] Output 1: hosting localstack.
+  - [ ] Output 2: Create Lambda function/dynamodb/s3/IAM/... by terraform, count number of row in csv file, write the result into dynamodb {"row": 3}.
 - [ ] [F12] CICD Set up with resources
-  - [x] Hosting Jenkin CICD
-  - [x] Integrate Github Action (preferred)
-  - [x] Output: run CI for [F11]: validate terraform, validate python code
-  - [x] Deadline: 9 Mar, 2022
+  - [ ] Hosting Jenkin CICD
+  - [ ] Integrate Github Action (preferred)
+  - [ ] Output: run CI for [F11]: validate terraform, validate python code
 - [ ] [F20] Ingesting data from API and push into Kinesis Data Stream
   - [ ] Create REST API with Mock Data: Web, Report (define RAW) - Heroku Db (batching)
   - [ ] Create Kinesis Data Stream / Crawler

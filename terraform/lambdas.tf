@@ -1,11 +1,11 @@
 data "archive_file" "get_user_stats_lambda_file" {
   type        = "zip"
-  source_file = "functions/get_user_stats_lambda.py"
+  source_file = "../functions/get_user_stats_lambda.py"
   output_path = "get_user_stats_lambda_file.zip"
 }
 data "archive_file" "post_user_stats_lambda_file" {
   type        = "zip"
-  source_file = "functions/post_user_stats_lambda.py"
+  source_file = "../functions/post_user_stats_lambda.py"
   output_path = "post_user_stats_lambda_file.zip"
 }
 

@@ -43,6 +43,9 @@ resource "aws_api_gateway_integration_response" "get_user_stats_integration_resp
   http_method      = aws_api_gateway_method.get_user_stats_method.http_method
   status_code      = "200"
   content_handling = "CONVERT_TO_TEXT"
+  response_templates = {
+       "application/json" = ""
+   } 
   depends_on = [
     aws_api_gateway_integration.get_user_stats_integration
   ]
@@ -82,6 +85,9 @@ resource "aws_api_gateway_integration_response" "post_user_stats_integration_res
   http_method      = aws_api_gateway_method.post_user_stats_method.http_method
   status_code      = "200"
   content_handling = "CONVERT_TO_TEXT"
+  response_templates = {
+       "application/json" = ""
+   } 
   depends_on = [
     aws_api_gateway_integration.post_user_stats_integration
   ]
